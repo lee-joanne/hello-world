@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'; // import react to use JSX
 
 const Hello = () => {
     return (
         <div>
-            <h1>Hello Joanne</h1>
-            <p>Blippu</p>
+            <p></p>
         </div>
     )
 }

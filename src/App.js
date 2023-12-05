@@ -5,7 +5,9 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Greet otherName="Other Name" name="Joanne">
+        <p>This is children props</p>
+      </Greet>
       <Hello />
     </div>
   );
@@ -13,5 +15,5 @@ function App() {
 
 export default App;
 
-// next video: 6 - class components
+// next video: 10 - state
 // . venv/bin/activate
