@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './components/Counter';
 import Greet from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
@@ -10,12 +11,13 @@ function App() {
         <p>This is children props</p>
       </Greet>
       <Hello /> */}
-      <Message/>
+      {/* <Message/> */}
+      <Counter />
     </div>
   );
 }
 
 export default App;
 
-// next video: 11
+// next video: 12 Destructuring
 // . venv/bin/activate

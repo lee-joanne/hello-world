@@ -9,7 +9,7 @@ class Message extends Component {
             message: 'Welcome Visitor'
         } // initial state
     }
-
+    
     changeMessage () {
        this.setState({
             message: "Thank you for subscribing!"
